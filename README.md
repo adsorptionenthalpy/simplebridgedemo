@@ -1,7 +1,7 @@
 ## Summary
 This protocol contains a single oracle and bridge, representing an incorrectly authored contract or system of compromised oracles on the bridge. </br>
 Reliance on a single manipulatable oracle can allow an atacker to inflate the assets price artificially which will mint a disproportional amount of wrapped assets.  </br>
-If the oracle's price feed is sourced from a DEX with low liquiduity then the executor can manipulate the price with large traders, </br>
+If the oracle's price feed is sourced from a DEX with low liquidity then the executor can manipulate the price with large traders, </br>
 which will lead to inflated minting and runaway draining of the DEX's treasury accounts. </br>
 </br>
 ### Precondition:  </br>
